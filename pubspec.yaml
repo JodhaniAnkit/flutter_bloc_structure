@@ -1,0 +1,91 @@
+name: bloc_structure
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_localizations:
+    sdk: flutter
+  flutter_bloc:
+  http:
+  go_router:
+  adaptive_theme:
+  equatable:
+  auto_route:
+  get:
+  intl:
+  pdf:
+  printing:
+  dart_json_mapper:
+  expansion_tile_card:
+  device_preview:
+  getwidget:
+  flutter_form_builder: ^9.5.0
+  form_builder_validators: ^11.0.0
+  string_2_icon:
+  intl_utils:
+  pattern_formatter:
+  http_certificate_pinning:
+  bloc_concurrency:
+  modbus_client_tcp:
+  custom_navigation_bar:
+  flutter_inappwebview:
+  animated_toggle_switch:
+  reflectable:
+  glob:
+  shared_preferences:
+  logger: ^2.5.0
+  get_storage:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  integration_test:
+    sdk: flutter
+  build_runner:
+  test: ^1.25.7
+  bloc_test: ^9.1.7
+  mockito: ^5.4.4
+
+flutter_secure_storage:
+  enabled: true
+  class_name: SecureStorage
+  main_locale: en
+
+flutter_intl:
+  enabled: true
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/mock/
+    - assets/images/
